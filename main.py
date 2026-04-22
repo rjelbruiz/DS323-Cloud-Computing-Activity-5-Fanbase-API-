@@ -61,12 +61,19 @@ def startup_populate_db():
         sample_chars = [
             CharacterDB(name="Tony Stark", alias="Iron Man", actor="Robert Downey Jr.", first_appearance="Iron Man (2008)"),
             CharacterDB(name="Steve Rogers", alias="Captain America", actor="Chris Evans", first_appearance="Captain America: The First Avenger (2011)"),
-            CharacterDB(name="Natasha Romanoff", alias="Black Widow", actor="Scarlett Johansson", first_appearance="Iron Man 2 (2010)"),
             CharacterDB(name="Thor Odinson", alias="Thor", actor="Chris Hemsworth", first_appearance="Thor (2011)"),
+            CharacterDB(name="Natasha Romanoff", alias="Black Widow", actor="Scarlett Johansson", first_appearance="Iron Man 2 (2010)"),
+            CharacterDB(name="Clint Barton", alias="Hawkeye", actor="Jeremy Renner", first_appearance="Thor (2011)"),
             # Recast entries for the Hulk.
             CharacterDB(name="Bruce Banner", alias="Hulk", actor="Edward Norton", first_appearance="The Incredible Hulk (2008)"),
             CharacterDB(name="Bruce Banner", alias="Hulk", actor="Mark Ruffalo", first_appearance="The Avengers (2012)"),
-            CharacterDB(name="Clint Barton", alias="Hawkeye", actor="Jeremy Renner", first_appearance="Thor (2011)"),
+            # Recast entries for War Machine.
+            CharacterDB(name="James 'Rhodey' Rhodes", alias="War Machine", actor="Terrence Howard", first_appearance="Iron Man (2008)"),
+            CharacterDB(name="James 'Rhodey' Rhodes", alias="War Machine", actor="Don Cheadle", first_appearance="Iron Man 2 (2010)"),
+            CharacterDB(name="Virginia 'Pepper' Potts", alias="Rescue", actor="Gwyneth Paltrow", first_appearance="Iron Man (2008)"),
+            CharacterDB(name="Nicholas Fury", alias="Nick", actor="Samuel L. Jackson", first_appearance="Iron Man (2008)"),
+            CharacterDB(name="Jane Foster", alias="Lady Thor", actor="Natalie Portman", first_appearance="Thor (2011)"),
+            CharacterDB(name="Loki Laufeyson", alias="Loki", actor="Tom Hiddleston", first_appearance="Thor (2011)"),
             CharacterDB(name="Peter Parker", alias="Spider-Man", actor="Tom Holland", first_appearance="Captain America: Civil War (2016)")
         ]
         db.add_all(sample_chars)
