@@ -1,0 +1,10 @@
+#April 22, 2026
+#
+#Ross Jervin Lorenz B. Ruiz
+#2023305556
+#BS Data Science DS3A
+#
+#DS323 Cloud Computing
+#Activity 5: Fanbase API
+
+Link: https://ds323-cloud-computing-activity-5-fanbase.onrender.com/
